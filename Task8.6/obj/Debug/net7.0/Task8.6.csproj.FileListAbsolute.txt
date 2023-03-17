@@ -1,0 +1,15 @@
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\bin\Debug\net7.0\Task8.6.exe
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\bin\Debug\net7.0\Task8.6.deps.json
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\bin\Debug\net7.0\Task8.6.runtimeconfig.json
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\bin\Debug\net7.0\Task8.6.dll
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\bin\Debug\net7.0\Task8.6.pdb
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\obj\Debug\net7.0\Task8.6.csproj.AssemblyReference.cache
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\obj\Debug\net7.0\Task8.6.GeneratedMSBuildEditorConfig.editorconfig
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\obj\Debug\net7.0\Task8.6.AssemblyInfoInputs.cache
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\obj\Debug\net7.0\Task8.6.AssemblyInfo.cs
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\obj\Debug\net7.0\Task8.6.csproj.CoreCompileInputs.cache
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\obj\Debug\net7.0\Task8.6.dll
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\obj\Debug\net7.0\refint\Task8.6.dll
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\obj\Debug\net7.0\Task8.6.pdb
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\obj\Debug\net7.0\Task8.6.genruntimeconfig.cache
+C:\IDE\Visual\SkillFactory\Task8.6\Task8.6\obj\Debug\net7.0\ref\Task8.6.dll
