@@ -1,9 +1,8 @@
 ﻿
-using System.Data;
-using System.IO;
 //Напишите программу, которая чистит нужную нам папку от файлов  и папок,которые не использовались более 30 минут
 // TODO:  переопределить вычетание или??
 // @"D:\\TestDir"
+GetCatalogs(@"D:\\TestDir");
 
 static void GetCatalogs(string dirPath)
 {
@@ -17,15 +16,17 @@ static void GetCatalogs(string dirPath)
 
 
 
-
+        // TODO исправить
         foreach (var t in dates)
         {
-            if (time - t != 0)// TODO исправить
+            var access = Directory.GetLastAccessTime(t);
+
+            if (time - access == 0) ;
 
             {
                 Directory.Delete(t, true);
             }
-            
+
 
 
 
@@ -46,6 +47,7 @@ static void GetCatalogs(string dirPath)
 
 
 
+
 }
-GetCatalogs(@"D:\\TestDir");
+
 
