@@ -2,7 +2,7 @@
 using System.Data;
 using System.IO;
 //Напишите программу, которая чистит нужную нам папку от файлов  и папок,которые не использовались более 30 минут
-// TODO:  переопределить вычетание в if или try.parce
+// TODO:  переопределить вычетание или??
 GetCatalogs(@"D:\\TestDir");
 static void GetCatalogs(string dirPath)
 {
