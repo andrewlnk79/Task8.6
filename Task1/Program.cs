@@ -20,10 +20,12 @@ static void GetCatalogs(string dirPath)
 
         foreach (var t in dates)
         {
-            if (time - t==0)// TODO исправить
+            if (time - t != 0)// TODO исправить
+
             {
                 Directory.Delete(t, true);
             }
+            
 
 
 
