@@ -23,7 +23,7 @@ static void GetCatalogs(string dirPath)
         {
             var access = Directory.GetLastAccessTime(t);
 
-            if (dt - access != 0);
+            if (dt != access );
 
             {
                 Directory.Delete(t, true);
