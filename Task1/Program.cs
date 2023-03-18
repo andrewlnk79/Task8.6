@@ -8,6 +8,8 @@ static void GetCatalogs(string dirPath)
 {
 
     TimeSpan time = TimeSpan.FromMinutes(30);
+    DateTime dt;
+    dt = Convert.ToDateTime(time.ToString());
 
     if (Directory.Exists(dirPath))
     {
@@ -21,7 +23,7 @@ static void GetCatalogs(string dirPath)
         {
             var access = Directory.GetLastAccessTime(t);
 
-            if (time - access == 0) ;
+            if (dt - access != 0);
 
             {
                 Directory.Delete(t, true);
