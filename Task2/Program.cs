@@ -9,19 +9,21 @@ static void GetDirectoryInfo(string path, out long Size)
 {
     Size = 0;
     DirectoryInfo directoryInfo = new DirectoryInfo(path);
-    var subDirectories = directoryInfo.GetDirectories();
-    var files = directoryInfo.GetFiles();
-    foreach (var file in files)
-    {
-        Size += file.Length;
+    if( Directory.Exists(path)){
+        var subDirectories = directoryInfo.GetDirectories();
+        var files = directoryInfo.GetFiles();
+        foreach (var file in files)
+        {
+            Size += file.Length;
+        }
+        long DirSize = 0;
+        foreach (var dir in subDirectories)
+        {
+            GetDirectoryInfo(dir.FullName, out DirSize);
+            Size += DirSize;
+        }
     }
-    long DirSize = 0;
-    foreach (var dir in subDirectories)
-    {
-        GetDirectoryInfo(dir.FullName, out DirSize);
-        Size += DirSize;
-    }
-    ;
+
 
 
 }
